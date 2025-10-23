@@ -1,0 +1,12 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open knowledge_graph_with_personality.html",
+            "file": "c:\\Users\\DELL\\OneDrive - Fulbright University Vietnam\\intellumia\\knowledge_graph\\knowledge_graph_with_personality.html"
+        }
+    ]
+}

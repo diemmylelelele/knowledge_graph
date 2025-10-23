@@ -1,0 +1,9 @@
+langchain
+langchain-experimental
+langchain-ollama
+PyPDF2
+pyvis
+flask
+langchain_core
+
+
