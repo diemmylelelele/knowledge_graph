@@ -12,9 +12,7 @@ async def enrich_with_personality(graph_docs, context_text: str, llm):
         prompt = f"""
         You are analyzing a knowledge graph extracted from text.
         Identify the key characteristics or descriptive traits that best describe the {entity_type.lower()} "{name}".
-        Return a JSON list of 2-3 concise descriptive traits, e.g.:
-        ["innovative", "ethical", "ambitious"]
-
+        Return a JSON list of 1-3 concise descriptive traits [e.g., "curious", "empathetic", "analytical"].
         Context:
         {context_text}
         
